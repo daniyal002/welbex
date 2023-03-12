@@ -1,6 +1,6 @@
-import React from "react";
-import "./MainScreen.css";
-import line from "../../assets/Line.svg";
+import React from 'react';
+import './MainScreen.css';
+import line from '../../assets/Line.svg';
 
 const MainScreen = () => {
   return (

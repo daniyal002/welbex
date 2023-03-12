@@ -1,3 +1,18 @@
 .App {
-  background: #0e1014;
+  background: -webkit-radial-gradient(
+    circle 411px at 30px center,
+    hsla(0, 70%, 10%, 100%),
+    #0e1014
+  );
+  background: radial-gradient(
+    circle 411px at 30px center,
+    hsla(0, 70%, 10%, 100%),
+    #0e1014
+  );
+}
+
+@media screen and (max-width: 720px) {
+  .App {
+    background: #0e1014;
+  }
 }

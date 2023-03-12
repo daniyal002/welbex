@@ -1,0 +1,118 @@
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 33px;
+}
+
+.footer__header {
+  font-weight: 900;
+  font-size: 14px;
+  color: #656566;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.footer a {
+  font-size: 16px;
+}
+
+.footer__about-company {
+  width: 25%;
+}
+
+.footer__about-comany-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.footer__menu {
+  width: 49%;
+}
+
+.footer__menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  row-gap: 10px;
+}
+
+.footer__menu-list-items {
+  flex-basis: 38%;
+}
+
+.footer__contacts {
+  text-align: right;
+  width: 25%;
+}
+
+.footer__contacts-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 19px;
+}
+
+.footer__contacts-list-link-phone {
+  margin-bottom: 2px;
+}
+
+.footer__contacts-list-social-list {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 11px;
+}
+
+.footer__copy {
+  width: 100%;
+  text-align: right;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+.footer__copy-text,
+.footer__copy a {
+  font-size: 12px;
+}
+
+.footer__copy a {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 720px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer__about-company {
+    width: 100%;
+  }
+
+  .footer__menu {
+    width: 100%;
+  }
+
+  .footer__menu-list-items {
+    flex-basis: 40%;
+    margin-right: 15px;
+  }
+
+  .footer__contacts {
+    text-align: left;
+    width: 100%;
+  }
+
+  .footer__contacts-list-social-list {
+    justify-content: flex-start;
+  }
+
+  .footer__copy {
+    text-align: left;
+  }
+}
